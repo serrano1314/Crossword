@@ -1,0 +1,43 @@
+body{
+    /* background-color: rgb(214, 214, 214); */
+    background-image: linear-gradient(to bottom right,white,rgb(172, 172, 172));
+    
+}
+.container {
+    text-align: center;
+}
+sup{
+    font-weight: bold;
+    
+}
+.clues{
+    text-align: left;
+}
+#across,#down{
+    width: 50%;
+    float: left;
+}
+li{
+    margin-bottom: 5px;
+}
+table{
+    /* background-color: rgb(214, 214, 214); */
+	padding: 0px;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 20px auto;
+}
+td{
+    border: 1px solid #000;
+    padding: 0px;
+    empty-cells: show;
+    height: 36px;
+	width: 36px;
+}
+td:empty{
+    border: 0px;
+}
+h1{
+    font-size: 30px;
+}
